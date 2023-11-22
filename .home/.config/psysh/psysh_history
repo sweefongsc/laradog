@@ -1,0 +1,14 @@
+_HiStOrY_V2_
+DB::select("SELECT\040name\040FROM\040sqlite_master\040WHERE\040type='table'\040ORDER\040BY\040name;")
+Schema::getColumnListing('dogs');
+exit
+php\040artisan\040tinker
+DB::select("SELECT\040name\040FROM\040sqlite_master\040WHERE\040type='table'\040ORDER\040BY\040name;")
+php\040artisan\040make:model\040Dog
+exit
+DB::select("SELECT\040name\040DOGS;")
+DB::select("SELECT\040*\040FROM\040DOGS;")
+DB::select("SELECT\040*\040FROM\040DOGS;")
+DB::select("SELECT\040*\040FROM\040DOGS;")
+DB::select("SELECT\040*\040FROM\040USER;")
+DB::select("SELECT\040*\040FROM\040USERS;")
